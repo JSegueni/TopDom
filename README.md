@@ -1,7 +1,7 @@
 
 # Edited TopDom to overcome bug from integer overflow - Julie SEGUENI - November 2021
 
-When using TopDom with my high-resolution Hi-C matrices, the resulting high number of bins produced an integer overflow that created a bug in the whole TopDom TAD calling process. I made a quick fix of this issue and am posting my solution as a v0.03 of TopDom in the v0.03/fix_TopDom.R.
+When using TopDom with my high-resolution Hi-C matrices, the resulting high number of bins produced an integer overflow that created a bug in the whole TopDom TAD calling process. I made a quick fix of this issue and am posting my solution as a v0.03 of TopDom in the v0.03/fix_TopDom.R file.
 
 Hopefully, this can help someone else!
 
