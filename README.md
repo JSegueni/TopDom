@@ -7,6 +7,19 @@ Hopefully, this can help someone else!
 
 Please cite this repository if you're using it in your publications. 
 
+Usage
+-----------------------------------------
+
+First, follow the old instructions of TopDom install from Henrik Bengtsson, below.
+
+In order to overcome the integer overflow creating NA bins, clone this repository and go to its location.
+
+Then, simply run in R the following instruction:
+
+"source(v0.03/fix_TopDom.R)" 
+
+This will create a new TopDom function called TopDom_v0.03 that you can use easily, since it has the same arguments as the previous TopDom functions.
+
 -----------------------------------------
 
 
